@@ -1,0 +1,19 @@
+GET http://0.0.0.0:8080
+
+###
+POST http://0.0.0.0:8080/echo
+Content-type: text/plain
+
+Daniel - blah blah blah
+
+###
+POST http://0.0.0.0:8080/echo/reversed
+Content-type: text/plain
+
+Daniel - blah blah blah
+
+###
+POST http://0.0.0.0:8080/parrot
+Content-type: text/plain
+
+Daniel - blah blah blah
